@@ -8,7 +8,7 @@
                     </div>
                     <div class="my-menu-container">
                         @foreach ($menuLinks as $link)
-                            <a href="#" class="mx-3">{{ link . text }}</a>
+                            <a href="#" class="mx-3">{{ $link->text }}</a>
                         @endforeach
                     </div>
                 </div>
